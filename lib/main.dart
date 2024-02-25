@@ -102,7 +102,7 @@ class _DraggableWidgetState extends State<DraggableWidget> {
       },
       child: Column(
         children: [
-          Text('Drag: $_horizontalDragInDegrees'),
+          Text('Drag degrees: ${-_horizontalDragInDegrees.toInt()}'),
           const SizedBox(height: 24),
           _buildFlippableWidget(
             front: widget.frontBroken,
