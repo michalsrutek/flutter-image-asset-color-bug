@@ -104,11 +104,15 @@ class _DraggableWidgetState extends State<DraggableWidget> {
         children: [
           Text('Drag degrees: ${-_horizontalDragInDegrees.toInt()}'),
           const SizedBox(height: 24),
+          const Text("Incorrect ❌"),
+          const SizedBox(height: 24),
           _buildFlippableWidget(
             front: widget.frontBroken,
             back: widget.backBroken,
           ),
           const SizedBox(height: 48),
+          const Text("Correct ✅"),
+          const SizedBox(height: 24),
           _buildFlippableWidget(
             front: widget.frontWorking,
             back: widget.backWorking,
