@@ -6,4 +6,6 @@ Tracked at [TODO... ADD LINK](https://github.com).
 
 ## 📹
 
-<video src="video.mp4">
+<img src="video.gif">
+
+[Video in mp4](video.mp4)
